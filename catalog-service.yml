@@ -1,2 +1,9 @@
 polar:
   greeting: "Welcome to the catalog from the config server"
+
+spring:
+  cloud:
+    config:
+      allowOverride: true
+      overrideNone: true
+      overrideSystemProperties: false
